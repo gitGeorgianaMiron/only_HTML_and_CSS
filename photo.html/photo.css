@@ -1,0 +1,92 @@
+.cat-1 {
+  width: 200px;
+  border-radius: 10px;
+}
+
+.cat-2 {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.cat-3 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  /* sau     border-radius: 100px; */
+  object-fit: cover;
+  object-position: center;
+}
+
+.search {
+  font-size: 16px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(200, 200, 200);
+  border-radius: 8px;
+  padding: 12px 15px;
+}
+
+.search-google {
+  font-size: 14px;
+  width: 400px;
+  border: none;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(200, 200, 200);
+  border-radius: 30px;
+  padding: 12px 15px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+
+/* ---------------------------  */
+.signup{
+  margin-top: 40px;
+}
+
+p {
+  font-family: Arial;
+  color: rgb(100, 100, 100);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.label {
+  font-size: 18px;
+  color: gray;
+}
+
+.text-box {
+  width: 400px;
+  height: 24px; 
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(100, 100, 100);
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.subtext {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(146, 143, 143);
+}
+
+.join-button {
+  background-color: rgb(94, 94, 247);
+  color: white;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 16px;
+  border-radius: 10px;
+  width: 400px;   
+  /*  sau inloc de width putem sa ii dam padding left-right  */
+}
